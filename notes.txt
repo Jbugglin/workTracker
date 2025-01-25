@@ -1,0 +1,41 @@
+Each employee has a unique login.
+  Each employee only selects 1 dept at a time.
+    From that dept, they can only select 1 machine unless they are logged in as helper.
+      when stopping a job, the employee must input a qty 
+        QTY will be checked with an expected run qty. 
+          Add a notes section to document any issues during the run 
+
+
+Landing/Login page -> first letter last name + last 4 of SSN#
+  Select Job# (Start job)
+    Select dept
+      Select Machine
+        Select workflow/operation
+
+Login
+  Select Job# (Stop Job)
+    Select Machine (if multiple entries)
+      Input Qty ran
+
+
+bindery:
+  Brause (not sure about setups and whatnot)
+  Cutter1/2/3 (Base it on press sheets & number of cuts per lift, autoload)
+  26" Folder 1/2 (letter, 4pg, 6pg, 8pg ra/par, 12pg, 16pg, misc, palamides)
+  32" Folder (12pg, 16pg, misc, palamides)
+  ICE folder (all sorts of setups i guess)
+  Stitcher (number of pockets and catching mech)
+
+Finish-Line:
+  Line 1/line 2
+  setup/roll change
+  score/perf
+  fold (types of folds)
+  glue
+  Stacking table/palamides
+  helper
+
+Lettershop:
+  Machine
+  Operation (number of pockets if inserting)
+  helper
